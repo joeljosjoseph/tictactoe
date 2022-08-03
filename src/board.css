@@ -1,0 +1,39 @@
+.board{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3,5rem);
+    grid-template-rows: repeat(3,5rem);
+    align-content: end;
+    justify-content: center;
+}
+
+.board-button {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, .3);
+    border: 2px solid white;
+    outline: none;
+    font-size: xx-large;
+    color: #ff11cc
+}
+
+.board-button:hover, 
+.board-button:focus {
+    background-color: rgba(255, 255, 255, .65);
+}
+
+.bb-1, .bb-2, .bb-3 {
+    border-top: none;
+}
+
+.bb-1, .bb-4, .bb-7 {
+    border-left: none;
+}
+
+.bb-3, .bb-6, .bb-9 {
+    border-right: none;
+}
+
+.bb-7, .bb-8, .bb-9 {
+    border-bottom: none;
+}

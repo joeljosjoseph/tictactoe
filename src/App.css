@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.app{
+  height: 100vh;
+  background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+}
+
+.winner {
+  height: 50px;
+  padding-top: 20px;
+  font-size: x-large;
+  font-weight: 700;
+  transition:transform ease-in 1s;
+}
+
+.shrink {
+  transform: scale(0);
+}
+
+.app > button {
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  height: 30px;
+  width: 240px;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: all ease-in-out 100ms;
+}
+
+.app > button:hover ,
+.app > button:focus {
+  background-color: inherit;
+  color: white;
+  border: 1px solid white;
+  
+}
